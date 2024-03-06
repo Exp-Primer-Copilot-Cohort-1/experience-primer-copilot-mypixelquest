@@ -8,5 +8,5 @@ const commentsRouter = require('./comments');
 // use commentsRouter
 app.use('/comments', commentsRouter);
 
-// start server
+// start server update
 app.listen(3000);
