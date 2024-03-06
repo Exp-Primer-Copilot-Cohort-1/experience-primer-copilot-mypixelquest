@@ -8,5 +8,5 @@ const commentsRouter = require('./comments');
 // use commentsRouter
 app.use('/comments', commentsRouter);
 
-// start server update
+// start server on port 3000
 app.listen(3000);
